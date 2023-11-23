@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background: url("backround_image.jpg") center/cover fixed;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #70A288, #04395E);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+li{
+  margin-right: 30px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 20px;
+  max-width: 40vw;
+  display: flex;
+  flex-flow: row wrap;
+  overflow-wrap: break-word;
+}
+
+.user-input-container,
+.list-item-container,
+.delete-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user-input-container {
+  margin-bottom: 50px;
+}
+
+.list-item-container {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.delete-button-container {
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.button-delete, 
+.button-plus {
+  background-color: #D57D60;
+  color: #F7E3C8;
+  border: none;
+  border-radius: 10px;
+  padding: 8.5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 15px;
+  max-width: 80px;
+}
+
+.user-input {
+  border: 2px solid #D57D60;
+  border-radius: 10px;
+  padding: 8px;
+  width: 30vw;
+  min-width: 180px;
+}

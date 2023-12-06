@@ -1,6 +1,6 @@
 # grocery-list-app
 
-This project is useful for individuals or households who want a simple and interactive tool for managing their grocery shopping list. It can be used on various devices due to its responsive design. Overall, the project offers a user-friendly interface for creating, managing, and visualizing a grocery shopping list, making it convenient for users to organize and prioritize their shopping needs.
+This project is useful for individuals or households who want a simple and interactive tool for managing their grocery shopping list. It can be used on various devices due to its responsive design.
 
 1) User Interface:
 
